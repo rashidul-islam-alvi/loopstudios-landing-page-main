@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.header {
+  background-image: url(/images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+  position: relative;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 150px 0 150px;
+}
+
+.nav-bar ul {
+  display: flex;
+  width: 390px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-bar ul li {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.square-content {
+  height: 270px;
+  width: 650px;
+  color: white;
+  margin: 130px 0 0 150px;
+  text-transform: uppercase;
+  padding: 40px 0 0 40px;
+  font-size: 5rem;
+  font-weight: 300;
+  border: 2px solid white;
+}
+
+.first-section {
+  margin: 160px 0 0 160px;
+  position: relative;
+}
+
+.interactive-img {
+  width: 733px;
+  height: 499px;
+}
+
+.founder-content {
+  position: absolute;
+  width: 543px;
+  height: 321px;
+  background-color: white;
+  right: 0;
+  transform: translateY(-325px);
+  padding: 80px 0 0 90px;
+}
+
+.founder-header {
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.founder-paragraph {
+  line-height: 25px;
+  color: hsl(0, 0%, 55%);
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  margin: 0 160px;
+  margin-top: 315px;
+  grid-gap: 30px;
+  margin-bottom: 10px;
+}
+
+.image1 {
+  padding: 0;
+  margin: 0;
+  height: 450px;
+  width: 260px;
+}
+
+.hoverOver:hover {
+  opacity: 0.2;
+  height: 460px;
+  width: 270px;
+}
